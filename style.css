@@ -1,0 +1,130 @@
+
+* {
+	font-family: 'Nunito', sans-serif;
+	
+	
+}
+
+
+body {
+	/*background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);*/
+
+	background-color: #FD4659;
+}
+
+h1 {
+	background-color: #FDB0C0;
+	color: #4A0100;
+	text-align: center;
+	margin: 1px;
+}
+
+
+
+nav li {
+	font-size: 16px;
+	list-style: none;
+	display: inline-block;
+	background-color: yellow;
+	margin: 0px 8px;
+}
+
+nav {
+    background-color: #4A0100;
+    padding: 5px;
+}
+
+.form-inner {
+	padding: 16px;
+	background-color: pink;
+	border: 1px solid black;
+	width: 400px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	margin: 16px 0;
+}
+
+.right-float {
+	float: right;
+	/*position: 50px 10px 50px 10px;*/
+	margin: 10px 10px;
+	padding: 5px;
+	width: 50%;
+}
+
+
+.nav-list-item {
+	padding: 8px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+
+}
+
+.form-control-selector {
+	display: flex;
+	padding-top: 8px;
+}
+
+.widht-cars {
+	width: 50%;
+}
+
+.border-img:hover {
+	border: whitesmoke solid 8px;
+}
+
+
+
+.img-float-skill {
+	width: 80% ;
+	
+
+}
+
+
+
+.andrie {
+	float : left; 
+	display: flex;
+	padding: 5px;
+	margin : 5px ;
+}
+
+.footer-index {
+	padding: 5px;
+	background-color: rgba(0, 0, 255, 0.3);
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+label {
+	padding-bottom: 8px;
+}
+
+
+h2 {
+	text-align: center;
+	background-color: whitesmoke;
+	margin: 1px;
+	padding: 10px;
+}
+
+ul li {
+	list-style: none;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	line-height: 30px;
+}

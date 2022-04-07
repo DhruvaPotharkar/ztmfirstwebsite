@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<h1>Registraton form</h1>
+	</header>
+	<nav>
+		<ul class="nav-list">
+			<li class="nav-list-item"><a href="newpage.html"> New Page </a></li>
+			<li class="nav-list-item"><a href="index.html"> Home </a></li>
+			<li class="nav-list-item"><a href="contact.html">Contact Us </a></li>
+		</ul>
+	</nav>
+	<hr>
+	<div class="form">
+		<form method="GET" class="form-inner">
+			<div class="form-control">
+				<label for="firstname">First name :</label>
+				<input type="text" name="firstname">
+			</div>
+			<div class="form-control">
+				<label for="lastname">Last name :</label>
+				<input type="text" name="lastname">
+			</div>
+			<div class="form-control">
+				<label for="email">Email :</label>
+				<input type="email" name="email">
+			</div>
+			<div class="form-control">
+				<label for="password">Password :</label>
+				<input type="text" name="password">
+			</div>
+			<div class="form-control">
+				<label for="birthday">Birthday :</label>
+				<input type="text" name="birthday">
+			</div>
+			
+				<label for="gender">Gender :</label><br>
+				<input type="radio" name="gender"><label>Male </label>
+				<input type="radio" name="gender"><label>Female </label> 
+				<input type="radio" name="gender"><label>Other </label>
+			
+			 
+		<div class="form-control-selector">
+			<label for="pets">Pets :</label><br>
+			<input type="checkbox" name="cat"><label>Cats </label>
+			<input type="checkbox" name="dogs"> <label>Dogs </label>
+			<input type="checkbox" name="rabbit"> <label>Rabbit </label>
+		</div>
+
+			<div class="form-control">
+				<label for="cars">Cars :</label>
+				<select name="cars" class="widht-cars">
+					<option value="volvo">Volvo</option>
+					<option value="Audi">Audi</option>
+				</select>
+			</div>
+
+			<input type="submit" name="Regiser" value="Register!">
+			<input type="Reset" name="Reset" value="Reset!">
+		</form>
+	</div>
+</body>
+
+</html>
